@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monetag Reward Ads</title>
+    <script src='//niphaumeenses.net/vignette.min.js' data-zone='8886674' data-sdk='show_8886674'></script>
+    <style>
+        /* Basic Styling */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #081beb;
+            color: #ff7300;
+        }
+        .app-container {
+            text-align: center;
+            background: #ff7300;
+            padding: 30px;
+            border-radius: 15px;
+            width: 280px;
+            box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.50);
+            animation: fadeIn 2s ease;
+        }
+        .logo {
+            width: 65px;
+            height: 65px;
+            margin-bottom: -10px;
+        }
+        .username {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+        .balance-info, .reward-counter {
+            margin: 10px 100;
+            font-size: 15px;
+            color: #000000;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ff7300;
+            background-color: #081beb;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.20);
+        }
+        button:hover {
+            background-color: #081beb;
+            transform: translateY(-2px);
+        }
+        button:active {
+            transform: scale(1.05);
+        }
+        .profile-section {
+            margin-top: 40px;
+            color: #000000;
+            text-align: left;
+        }
+        .profile-section p {
+            margin: 8px 0;
+            color: #8108eb;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Logo and Username -->
+        <img src="https://i.postimg.cc/6qW3T9Gy/20250121-093118.jpg" alt="Logo" class="logo">
+        <h2 class="username">Monetag Ads System</h2>
+        <div style="border-bottom: 1px solid black; margin-bottom: 20px;"> 
+        </div>
+        <!-- Balance and Reward Counter -->
+    
+        <p class="reward-counter"><strong>Total Watch Ads : <span id="reward-count" style="color: #f5f2f8;">0</span></p>
+
+        
+        <!-- Ad Button -->
+        <button onclick="showRewardedAd()">Watch Ad For Reward</button>
+        
+        <!-- Additional Buttons for Withdraw and Task -->
+        <div class="button-container">
+
+            <button onclick="window.location.href='https://poawooptugroo.com/4/8886675';">Monetag Direct Link</button>
+         
+            <button onclick="window.location.href='https://www.profitablecpmrate.com/b493c9nk?key=cc46006706531f13bbfddf716e5380d9;">Adstera Direct Link</button>
+          
+            <button onclick="window.location.href='https://t.me/earningtipsbysiam';">Official Channel</button>
+        </div>
+
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <h3>Developer Profile</h3>
+            <div style="border-bottom: 1px solid black; margin-bottom: 10px;"> 
+        </div>
+            <p><strong style="color: black;">Name:</strong><a href="https://t.me/mdshajahanabir" style="text-decoration: none; color: #f6ecec; font-weight: normal;"> Md Shajahan Abir</p>
+            <p><strong style="color: black">Email:</strong><a href="mailto:mdshajahanofficial7@gmail.com" style="text-decoration: none; color: #f6ecec; font-weight: normal;"> admin@gmail.com</p>
+            <p><strong style="color: black">Te. ID:</strong><a href="https://t.me/mdshajahanabir" style="text-decoration: none; color: #f6ecec; font-weight: normal;"> @mdshajahanabir</a></p>
+            </div>
+    </div>
+
+    <script>
+  
+    let rewardCount = parseInt(localStorage.getItem('rewardCount')) || 0;
+    let balance = parseFloat(localStorage.getItem('balance')) || 0.00;
+
+    document.getElementById('reward-count').textContent = rewardCount;
+    document.getElementById('balance').textContent = balance.toFixed(3);
+
+    function showRewardedAd() {
+        if (typeof show_8886674 === 'function') {
+            show_8886674().then(() => {
+                rewardCount += 1;
+                balance += 0.003;
+
+          
+                localStorage.setItem('rewardCount', rewardCount);
+                localStorage.setItem('balance', balance.toFixed(3));
+
+          
+                document.getElementById('reward-count').textContent = rewardCount;
+                document.getElementById('balance').textContent = balance.toFixed(3);
+                
+            }).catch(error => {
+                console.error('Ad failed to load or display:', error);
+            });
+        } else {
+            console.error('Ad script is not loaded or available.');
+        }
+    }
+
+    function withdrawBalance() {
+        window.location.href = 'withdraw.html';
+    }
+</script>
+
+</body>
+</html>
+Monetag Self Click Bot Script New Update.html
+Displaying Monetag Self Click Bot Script New Update.html.
